@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/singleton.hpp
+
+/home/wxx/GIT/DesignPatterns/singleton/src/singleton_test.cpp
+iostream
+-
+singleton.hpp
+/home/wxx/GIT/DesignPatterns/singleton/src/singleton.hpp
+
