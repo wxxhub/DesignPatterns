@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/singleton_test.dir/src/singleton_test.cpp.o  -o singleton_test 

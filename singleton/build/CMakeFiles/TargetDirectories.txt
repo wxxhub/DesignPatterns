@@ -1,3 +1,0 @@
-/home/wxx/GIT/DesignPatterns/singleton/build/CMakeFiles/rebuild_cache.dir
-/home/wxx/GIT/DesignPatterns/singleton/build/CMakeFiles/singleton_test.dir
-/home/wxx/GIT/DesignPatterns/singleton/build/CMakeFiles/edit_cache.dir
