@@ -1,15 +1,12 @@
 #include <iostream>
 
-#include "builder.h"
+#include "abstract_factory.h"
 
 using namespace std;
 using namespace my_study;
 
 int main()
 {
-    LaptopBuilder laptop;
-    Director dir(&laptop);
-
-    dir.create();
+    cout << "Hello World!" << endl;
     return 0;
 }
