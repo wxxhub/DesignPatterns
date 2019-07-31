@@ -7,6 +7,8 @@ using namespace my_study;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    Factory *fact = new ConcreteFactory();
+
+    Product *p = fact->createProduct();
     return 0;
 }
