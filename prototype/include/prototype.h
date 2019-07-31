@@ -26,10 +26,12 @@ class ConcretePrototype : public Prototype
 {
 public:
     ConcretePrototype();
-    ~ConcretePrototype();
-    ConcretePrototype(const ConcretePrototype &cp);
+    ~ConcretePrototype();    
 
     Prototype *clone() const;
+
+private:
+    ConcretePrototype(const ConcretePrototype &cp);
 };
 
 }

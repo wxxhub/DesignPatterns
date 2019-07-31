@@ -6,3 +6,6 @@
 [Singleton](singleton/README.md)  
 [Prototype](prototype/README.md)  
 [Builder](builder/README.md)  
+
+## 结构型模式()
+[Bridge](bridge/README.md)
