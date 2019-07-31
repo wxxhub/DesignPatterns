@@ -5,4 +5,8 @@ include_directories(
     include
 )
 
-add_executable(abstract_factory_test src/abstract_factory_test.cpp)
+add_executable(abstract_factory_test 
+    src/abstract_factory_test.cpp
+    src/abstract_factory.cpp
+    src/product.cpp
+)
