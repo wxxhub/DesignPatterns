@@ -5,4 +5,5 @@ include_directories(
     include
 )
 
-add_executable(prototype_test src/prototype_test.cpp)
+add_executable(prototype_test src/prototype_test.cpp
+                              src/prototype.cpp)
