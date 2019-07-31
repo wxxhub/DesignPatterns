@@ -8,4 +8,5 @@
 [Builder](builder/README.md)  
 
 ## 结构型模式()
+[Adapter](adapter/README.md)
 [Bridge](bridge/README.md)
