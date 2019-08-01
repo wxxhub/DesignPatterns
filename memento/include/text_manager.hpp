@@ -41,6 +41,7 @@ public:
             text_->setMemento(null_data_);
             return;
         }
+        
         text_->setMemento(text_history_.back());
         text_history_.pop_back();
     }

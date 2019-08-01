@@ -24,24 +24,22 @@ int main()
     cout << text->getData() << endl;
 
     text->setData("This reset data\n");
+    manager->save();
 
     cout << "reset data:" << endl;
     cout << text->getData() << endl;
 
-    manager->undo();
-    cout << "ubdo data:" << endl;
+    text->addData("Hello World! I'm Kangkang\n");
+    manager->save();
+    
+    cout << "add data:" << endl;
     cout << text->getData() << endl;
 
-    manager->undo();
-    cout << "ubdo data:" << endl;
-    cout << text->getData() << endl;
-
-    manager->undo();
-    cout << "ubdo data:" << endl;
-    cout << text->getData() << endl;
-
-    manager->undo();
-    cout << "ubdo data:" << endl;
-    cout << text->getData() << endl;
+    for (int i = 0; i < 10; ++i)
+    {
+        manager->undo();
+        cout << "ubdo data:" << endl;
+        cout << text->getData() << endl;
+    }
     return 0;
 }
